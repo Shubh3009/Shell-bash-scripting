@@ -1,5 +1,4 @@
 # Shell-bash-scripting
-Sure! Based on the content you provided, here's a short breakdown of the Linux OS structure shown in the diagram:
 
 ---
 
