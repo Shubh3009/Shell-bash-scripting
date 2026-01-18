@@ -120,12 +120,7 @@ Hello world
 
 ## **🎯 KEY CONCEPTS LEARNED**
 
-### **1. **Shell Script Basics**
-- **File extension**: `.sh` (conventional, not mandatory)
-- **Shebang line**: First line `#!/bin/bash` or `#!/bin/sh`
-- **Execute permission**: Must be set with `chmod +x`
-
-### **2. **File Permissions (Unix/Linux)**
+**File Permissions (Unix/Linux)**
 **Symbolic notation:**
 ```
 -rwxr-xr-x
@@ -139,36 +134,6 @@ Hello world
 - `w` = write (2)
 - `x` = execute (1)
 
-### **3. **Path Resolution**
-- `./script.sh` → Run from current directory
-- `script.sh` → Searches in `$PATH` directories
-- `~/script.sh` → Run from home directory
-- `/full/path/script.sh` → Absolute path execution
-
-### **4. **Common Commands Used**
-| Command | Purpose | Example |
-|---------|---------|---------|
-| `echo` | Print text | `echo "Hello"` |
-| `vim` | Text editor | `vim file.txt` |
-| `cat` | Display file content | `cat file.txt` |
-| `ls` | List files | `ls -la` |
-| `chmod` | Change permissions | `chmod +x script.sh` |
-| `which` | Find command location | `which bash` |
-
----
-
-## **💡 BEST PRACTICES DEMONSTRATED**
-
-1. **✅ Used proper shebang line** (`#!/bin/bash`)
-2. **✅ Made script executable** (`chmod +x`)
-3. **✅ Used relative path for execution** (`./script.sh`)
-4. **✅ Gave meaningful filename** (`hello.sh`)
-5. **✅ Verified interpreter location** (`which bash`)
-
----
-
-## **🚀 NEXT STEPS FOR LEARNING**
-
 ### **Enhance the Script:**
 ```bash
 #!/bin/bash
@@ -181,14 +146,6 @@ echo "Current directory: $(pwd)"            # Show current path
 echo "Today is: $(date)"                    # Show current date/time
 echo "System: $(uname -s) $(uname -r)"      # Show OS info
 ```
-
-### **Practice Exercises:**
-1. **Modify script** to ask for user's name and greet them
-2. **Create backup script** that copies `hello.txt` with timestamp
-3. **Add command-line arguments** support
-4. **Create log file** of script execution
-
----
 
 ## **📊 SCRIPT EXECUTION FLOW**
 ```
