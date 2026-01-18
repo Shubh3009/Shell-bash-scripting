@@ -28,4 +28,5 @@ Sure! Based on the content you provided, here's a short breakdown of the Linux O
 The Linux OS follows a **layered architecture**:  
 **User** → **Applications** → **Shell** → **Kernel** → **Hardware**  
 Each layer communicates with the layer below it, with the Kernel at the center of all operations.
+
 <img width="309" height="437" alt="image" src="https://github.com/user-attachments/assets/1d02628d-47ce-4f08-96c2-41ef8fee3878" />
